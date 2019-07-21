@@ -19,6 +19,18 @@
           <div class="d-none d-lg-block">tesssttt</div>
 </template>
 <script>
+  import Yayan from 'src/components/Yayan/Yayan.vue'
+
+  export default {
+    components: {
+      Yayan
+    }
+  }
+
+</script>
+<style>
+
+<script>
   import Card from 'src/components/Cards/Card.vue'
 
   export default {
