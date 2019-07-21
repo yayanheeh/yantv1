@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plyr issue #1115 workaround A</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <link rel='stylesheet' href='https://unpkg.com/plyr@3/dist/plyr.css'>
+
+      <link rel="stylesheet" href="./style.css">
+
+  
+</head>
+
+<body>
+
+  
+	<video controls crossorigin playsinline poster="https://cdn0-production-images-kly.akamaized.net/PK8cqDbBEFHztcaU8idxtSBjdY0=/750x416/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/687488/original/2014_02_logo-real-madrid2.jpg">
+		 	<source src="http://202.80.222.171/000001/2/ch14041511532707866226/index.m3u8?virtualDomain=000001.live_hls.zte.com" type="video/mp4" size="720">
+			
+			<!-- Caption files -->
+			<track kind="captions" label="English" srclang="en" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt"
+					default>
+			<track kind="captions" label="Français" srclang="fr" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.fr.vtt">
+			</video>
+
+<!-- Plyr resources and browser polyfills are specified in the pen settings -->
+  <script src='https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,Array.prototype.includes,CustomEvent,Object.entries,Object.values,URL'></script>
+<script src='https://unpkg.com/plyr@3/dist/plyr.min.js'></script>
+
+  
+
+    <script  src="./script.js"></script>
+
+
+
+
+</body>
+
+</html>
