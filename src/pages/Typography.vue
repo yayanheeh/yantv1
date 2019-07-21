@@ -28,7 +28,7 @@
   }
 
 </script>
-<style>
+
 
 <script>
   import Card from 'src/components/Cards/Card.vue'
