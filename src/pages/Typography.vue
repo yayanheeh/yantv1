@@ -1,4 +1,8 @@
 <template>
+<div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/T6b5TAey728" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+
   <div class="content">
     <div class="container-fluid">
       <div class="row">
