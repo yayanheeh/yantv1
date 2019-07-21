@@ -1,4 +1,7 @@
 <template>
+ <div class="contact-us full-screen">
+  
+
 <div class="video-container"><iframe width="560" height="315" src="https://yantv.netlify.com/play/realmadrid" frameborder="0" allowfullscreen></iframe></div>
 
 
@@ -23,7 +26,7 @@
         </div>
       </div>
     </footer>
-
+</div>
 
 </template>
 <style>
