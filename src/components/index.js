@@ -8,6 +8,8 @@ import Table from './Table.vue'
 import Card from './Cards/Card.vue'
 import ChartCard from './Cards/ChartCard.vue'
 import StatsCard from './Cards/StatsCard.vue'
+import Yayan from './Yayan/Yayan.vue'
+
 
 import SidebarPlugin from './SidebarPlugin'
 
@@ -18,6 +20,7 @@ let components = {
   Card,
   ChartCard,
   StatsCard,
+  Yayan,
   Table,
   BaseDropdown,
   SidebarPlugin
