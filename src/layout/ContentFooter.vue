@@ -1,4 +1,5 @@
 <template>
+<script id="dsq-count-scr" src="//yplay-tv.disqus.com/count.js" async></script>
   <footer class="footer">
   <div id="disqus_thread"></div>
 <script>
@@ -43,4 +44,4 @@ s.setAttribute('data-timestamp', +new Date());
 <style>
 
 </style>
-<script id="dsq-count-scr" src="//yplay-tv.disqus.com/count.js" async></script>
+
