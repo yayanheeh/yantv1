@@ -2,8 +2,7 @@
  <div class="sticky-top">
 
 <div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://www.yantv.netlify.com/ply/Sctv.html" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-       </div> <div class="list-group-item">Sctv Live 
+            <iframe width="560" height="315" src="https://yantv.netlify.com/ply/sctv" frameborder="0" allowfullscreen></iframe>    </div> <div class="list-group-item">Sctv Live 
 
 </div></div>
 
