@@ -9,13 +9,51 @@
 
   <link rel='stylesheet' href='https://unpkg.com/plyr@3/dist/plyr.css'>
 
-      
+    <style>
+ .loader {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader > img {
+    width: 100px;
+}
+
+.loader.hidden {
+    animation: fadeOut 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.thumb {
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}
+</style>
+  
 
   
 </head>
 
 <body>
-
+<div class="loader">
+    <img src="http://freepreloaders.com/wp-content/uploads/2019/05/bars.svg" alt="Loading..." />
+</div>
   
 	<video controls crossorigin playsinline poster="https://cdn0-production-images-kly.akamaized.net/PK8cqDbBEFHztcaU8idxtSBjdY0=/750x416/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/687488/original/2014_02_logo-real-madrid2.jpg">
 		 	<source src="https://rmtv24hweblive-lh.akamaihd.net/i/rmtv24hweben_1@300662/index_3_av-b.m3u8?sd=10&rebase=on" type="video/mp4" size="720">
@@ -34,7 +72,12 @@
 
     <script  src="./script.js"></script>
 
-
+<script>
+window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden"; // class "loader hidden"
+});
+</script>
 
 
 </body>
