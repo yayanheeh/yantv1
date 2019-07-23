@@ -14,6 +14,7 @@ import Upgrade from 'src/pages/Upgrade.vue'
 
 import Realmadrid from 'src/pages/Realmadrid.vue'
 import Sctv from 'src/pages/Sctv.vue'
+import Trans from 'src/pages/Trans.vue'
 
 
 const routes = [
@@ -66,6 +67,11 @@ const routes = [
         path: 'sctv',
         name: 'Sctv',
         component: Sctv
+      },
+     {
+        path: 'trans',
+        name: 'Trans',
+        component: Trans
       },
 
       {
