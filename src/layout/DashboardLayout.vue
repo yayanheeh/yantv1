@@ -46,6 +46,7 @@
 
       </dashboard-content>
 
+      <footer-menu></footer-menu>
       <content-footer></content-footer>
     </div>
   </div>
@@ -58,11 +59,14 @@
   import ContentFooter from './ContentFooter.vue'
   import DashboardContent from './Content.vue'
   import MobileMenu from './MobileMenu.vue'
+  import MobileMenu from './FooterMenu.vue'
+  
   export default {
     components: {
       TopNavbar,
       ContentFooter,
       DashboardContent,
+      FooterMenu,
       MobileMenu
     },
     methods: {
