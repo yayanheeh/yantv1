@@ -3,12 +3,10 @@
 
 <div class="embed-responsive embed-responsive-16by9">
             <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/T6b5TAey728" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-       </div>   </div>
+       </div>   tessst</div>
 
   </template>
-<template>
-Tesss yayan
-</template>
+
 <script>
   import Yayan from 'src/components/Yayan/Yayan.vue'
 
