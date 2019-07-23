@@ -13,6 +13,7 @@ import Notifications from 'src/pages/Notifications.vue'
 import Upgrade from 'src/pages/Upgrade.vue'
 
 import Realmadrid from 'src/pages/Realmadrid.vue'
+import Sctv from 'src/pages/Sctv.vue'
 
 
 const routes = [
@@ -61,6 +62,12 @@ const routes = [
         name: 'Realmadrid',
         component: Realmadrid
       },
+      {
+        path: 'sctv',
+        name: 'Sctv',
+        component: Sctv
+      },
+
       {
         path: 'notifications',
         name: 'Notifications',
