@@ -3,30 +3,7 @@
   <div class="sticky-top">
 
 <div class="video-container"><iframe width="560" height="315" src="https://yantv.netlify.com/play/realmadrid" frameborder="0" allowfullscreen></iframe></div>
-</div>
-<div class="video-container"><iframe width="560" height="315" src="https://yantv.netlify.com/play/komentar" frameborder="0" allowfullscreen></iframe></div>
-
-
- <footer class="footer-demo">
-      <div class="container">
-        <nav class="pull-left">
-          <ul>
-            <li>
-              <router-link :to="{path:'/'}">Home</router-link>
-            </li>
-            <li>
-              <router-link :to="{path:'/register'}">Register</router-link>
-            </li>
-          </ul>
-        </nav>
-        <div class="copyright text-center">
-          &copy; Coded with
-          <i class="fa fa-heart heart"></i> by
-          <a href="https://binarcode.com" target="_blank">BinarCode</a>.
-          Designed by <a href="https://www.creative-tim.com/?ref=pdf-vuejs" target="_blank">Creative Tim</a>.
-        </div>
-      </div>
-    </footer>
+</div> 
 </div>
 
 </template>
