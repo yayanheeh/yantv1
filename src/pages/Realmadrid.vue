@@ -1,9 +1,9 @@
 <template>
  <div class="contact-us full-screen">
-  
+  <div class="sticky-top">
 
 <div class="video-container"><iframe width="560" height="315" src="https://yantv.netlify.com/play/realmadrid" frameborder="0" allowfullscreen></iframe></div>
-
+</div>
 <div class="video-container"><iframe width="560" height="315" src="https://yantv.netlify.com/play/komentar" frameborder="0" allowfullscreen></iframe></div>
 
 
