@@ -1,12 +1,14 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" >
 
 <head>
   <meta charset="UTF-8">
-  <title>Plyr Demo</title>
+  <title>HTML5 Video Player</title>
   
   
- <style>
+  
+      <link rel="stylesheet" href="./style.css">
+<style>
  .loader {
     position: fixed;
     z-index: 99;
@@ -38,26 +40,38 @@
     margin: 10px;
 }
 </style>
-
   
 </head>
 
 <body>
-
-  <div class="loader">
+<div class="loader">
     <img src="http://freepreloaders.com/wp-content/uploads/2019/05/index.messenger-typing-preloader.svg" alt="Loading..." />
 </div>
-  <video controls autoplay>
-<source src="http://202.80.222.178/000001/2/ch15010918464887721048/index.m3u8?virtualDomain=000001.live_hls.zte.com" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+  <div class="px-video-container" id="myvid">
+    <div class="px-video-img-captions-container">
+        <div class="px-video-captions hide" aria-hidden="true"></div>
+        <video width="640" height="360" poster="https://germini.info/wp-content/uploads/2015/09/ffmpeg.jpg" controls>
+            <!-- video files -->
+            <source src="http://202.80.222.178/000001/2/ch15010918464887721048/index.m3u8?virtualDomain=000001.live_hls.zte.com" type="video/mp4" />
 
+            <!-- text track file -->
+            <track kind="captions" label="English captions" src="/uploads/sounds/austin_en.vtt" srclang="en" default />
 
+            <!-- fallback for browsers that don't support the video element -->
+            <div>
+                
+            </div>
+        </video>
+    </div>
+    <!-- end container for captions and video -->
+    <div class="px-video-controls"></div>
+</div>
 
-                <!-- Fallback for browsers that don't support the <video> element -->
-     
- 
- 
+  
+  
+
+    <script  src="./script.js"></script>
+
 
 <script>
 window.addEventListener("load", function () {
@@ -67,7 +81,7 @@ window.addEventListener("load", function () {
 </script>
 
 
-
 </body>
 
 </html>
+
