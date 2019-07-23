@@ -6,6 +6,9 @@
        </div>   </div>
 
   </template>
+<template>
+Tesss yayan
+</template>
 <script>
   import Yayan from 'src/components/Yayan/Yayan.vue'
 
