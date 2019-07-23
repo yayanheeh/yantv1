@@ -1,20 +1,42 @@
 <template>
 
   <footer class="footer">
-      <div class="container-fluid">
-      <nav>
-        <ul class="footer-menu">
-          <li>
-            <router-link :to="{path:'/admin'}">yanDashboard yan</router-link>
-          </li>
-        </ul>
-      </nav>
-      <div class="copyright text-center">
-        &copy; Coded with
-        <i class="fa fa-heart heart"></i> by
-        <a href="https://yayanheeh.online" target="_blank">Yplay Tv footer</a>.
-        Designed by <a href="https://www.yayanheeh.online" target="_blank">Yayan He'eh</a>.
-      </div>
+      <div class="row">
+    <div class="col">
+      1 of 2
+    </div>
+    <div class="col">
+      2 of 2
+    </div>
+<div class="row">
+    <div class="col">
+      1 of 2
+    </div>
+    <div class="col">
+      2 of 2
+    </div>
+
+<div class="row">
+    <div class="col">
+      1 of 2
+    </div>
+    <div class="col">
+      2 of 2
+    </div>
+
+<div class="row">
+    <div class="col">
+      1 of 2
+    </div>
+    <div class="col">
+      2 of 2
+    </div>
+<div class="row">
+    <div class="col">
+      1 of 2
+    </div>
+    <div class="col">
+      2 of 2
     </div>
   </footer>
 </template>
