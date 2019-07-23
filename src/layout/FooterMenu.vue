@@ -51,6 +51,8 @@
 </div></div>
 
 </template>
+ <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'/>
+
 <style>
  .video-thumbnail {
   position: relative;
