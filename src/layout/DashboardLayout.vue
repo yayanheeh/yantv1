@@ -59,7 +59,7 @@
   import ContentFooter from './ContentFooter.vue'
   import DashboardContent from './Content.vue'
   import MobileMenu from './MobileMenu.vue'
-  import MobileMenu from './FooterMenu.vue'
+  import FooterMenu from './FooterMenu.vue'
   
   export default {
     components: {
