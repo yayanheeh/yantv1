@@ -85,7 +85,7 @@
 
         <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
           <span class="time">Live</span>
-         <center><router-link :to="{path:'/admin'}"> <img src="https://img.icons8.com/color/48/000000/circled-play.png"width="30"></router-link></center>
+         <center><router-link :to="{path:'/admin/kompas'}"> <img src="https://img.icons8.com/color/48/000000/circled-play.png"width="30"></router-link></center>
      </div>   
 </div>
     </div>
