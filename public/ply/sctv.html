@@ -5,12 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML5 Video Player</title>
   
-  
-  
-      <link rel="stylesheet" href="https://yantv.netlify.com/ply/style.css">
+  <head>
+  <link href="https://vjs.zencdn.net/7.6.0/video-js.css" rel="stylesheet">
 
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style>
+  <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+  <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+</head>
 
+<body>
+<div class="loader">
+    <img src="http://freepreloaders.com/wp-content/uploads/2019/05/index.messenger-typing-preloader.svg" alt="Loading..." />
+</div>
+
+  <video id='my-video' class='video-js' controls preload='auto' width='640' height='264'
+  poster='MY_VIDEO_POSTER.jpg' data-setup='{}'>
+    <source src='MY_VIDEO.mp4' type='video/mp4'>
+    <source src='MY_VIDEO.webm' type='video/webm'>
+    <p class='vjs-no-js'>
+      To view this video please enable JavaScript, and consider upgrading to a web browser that
+      <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
+    </p>
+  </video>
+
+  <script src='https://vjs.zencdn.net/7.6.0/video.js'></script>
+
+  
+      
 <style>
  .loader {
     position: fixed;
@@ -44,37 +64,6 @@
 }
 </style>
   
-</head>
-
-<body>
-<div class="loader">
-    <img src="http://freepreloaders.com/wp-content/uploads/2019/05/index.messenger-typing-preloader.svg" alt="Loading..." />
-</div><div class='embed-container'>
-
-  <div class="px-video-container" id="myvid">
-    <div class="px-video-img-captions-container">
-        <div class="px-video-captions hide" aria-hidden="true"></div>
-        <video width="640" height="360" poster="https://germini.info/wp-content/uploads/2015/09/ffmpeg.jpg" controls>
-            <!-- video files -->
-            <source src="http://202.80.222.178/000001/2/ch15010918464887721048/index.m3u8?virtualDomain=000001.live_hls.zte.com" type="video/mp4" />
-
-            <!-- text track file -->
-            <track kind="captions" label="English captions" src="/uploads/sounds/austin_en.vtt" srclang="en" default />
-
-            <!-- fallback for browsers that don't support the video element -->
-            <div>
-                
-            </div>
-        </video>
-    </div>
-    <!-- end container for captions and video -->
-    <div class="px-video-controls"></div>
-</div>
-</div>
-  
-  
-
-    <script  src="https://yantv.netlify.com/ply/script.js"></script>
 
 
 <script>
