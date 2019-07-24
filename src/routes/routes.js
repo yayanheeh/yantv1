@@ -17,6 +17,7 @@ import Sctv from 'src/pages/Sctv.vue'
 import Trans from 'src/pages/Trans.vue'
 import Tvone from 'src/pages/Tvone.vue'
 import Trans7 from 'src/pages/Trans7.vue'
+import Kompas from 'src/pages/Kompas.vue'
 
 
 const routes = [
@@ -85,6 +86,11 @@ const routes = [
         path: 'trans7',
         name: 'Trans7',
         component: Trans7
+      },
+    {
+        path: 'kompas',
+        name: 'Kompas',
+        component: Kompas
       },
 
       {
