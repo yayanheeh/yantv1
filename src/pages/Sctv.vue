@@ -1,10 +1,10 @@
 <template>
  <div class="sticky-top">
-
+<div class="container">
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://yantv.netlify.com/ply/sctv.html" allowfullscreen></iframe>
 </div>
-
+</div>
 <div class="list-group-item"><i class="nc-icon nc-chart-bar-32"></i>
    Sctv Live </div>
 
