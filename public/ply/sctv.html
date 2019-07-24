@@ -1,38 +1,15 @@
-<!DOCTYPE html>
-<html lang="en" >
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML5 Video Player</title>
- <link rel="stylesheet" href="//releases.flowplayer.org/7.0.4/commercial/skin/skin.css">
-    <style>
+<!DOCTYPE html> 
+<html> 
+<body> 
 
-   </style>
-   <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
-  <script src="//releases.flowplayer.org/7.0.4/commercial/flowplayer.min.js"></script>
-  <script src="//releases.flowplayer.org/hlsjs/flowplayer.hlsjs.min.js"></script> 
-  <script>
-  flowplayer(function (api) {
-    api.on("load", function (e, api, video) {
-      $("#vinfo").text(api.engine.engineName + " engine playing " + video.type);
-    }); });
-  </script></head>
-
-<body>
+<video width="400" controls>
+  <source src="http://202.80.222.178/000001/2/ch15010918464887721048/index.m3u8?virtualDomain=000001.live_hls.zte.com&IASHttpSessionId=OTT11209201907240349063715746p" type="video/mp4">
+   Your browser does not support HTML5 video.
+</video>
 
 
-<div class="flowplayer fixed-controls no-toggle no-time play-button obj"
-      style="    width: 85.5%;
-    height: 80%;
-    margin-left: 7.2%;
-    margin-top: 6%;
-    z-index: 1000;" data-key="$812975748999788" data-live="true" data-share="false" data-ratio="0.5625"  data-logo="">
-      <video autoplay="true" stretch="true">
-
-         <source type="application/x-mpegurl" src="http://202.80.222.178/000001/2/ch15010918464887721048/index.m3u8?virtualDomain=000001.live_hls.zte.com&IASHttpSessionId=OTT11209201907240349063715746p">
-      </video>   
-   </div>
-
-</body>
-
+</body> 
 </html>
+
+
