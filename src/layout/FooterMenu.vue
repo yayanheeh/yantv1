@@ -65,11 +65,11 @@
     </div>
     <div class="col">
     <div class="card">
-          <img src="https://yayanheeh.github.io/live/logo/metro.jpg" class="img-thumbnail" alt="Responsive image">
+          <img src="https://yayanheeh.github.io/live/logo/trans.jpg" class="img-thumbnail" alt="Responsive image">
 
         <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
           <span class="time">Live</span>
-         <center><router-link :to="{path:'/admin'}"> <img src="https://img.icons8.com/color/48/000000/circled-play.png"width="30"></router-link></center> </div>
+         <center><router-link :to="{path:'/admin/trans'}"> <img src="https://img.icons8.com/color/48/000000/circled-play.png"width="30"></router-link></center> </div>
         </div>
         
 
