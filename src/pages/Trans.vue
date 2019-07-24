@@ -1,8 +1,9 @@
 <template>
  <div class="sticky-top">
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://yantv.netlify.com/ply/trans' style='border:0'></iframe></div>
 
-<div class="embed-responsive embed-responsive-16by9">
-            <iframe width="560" height="315" src="https://yantv.netlify.com/ply/trans" frameborder="0" allowfullscreen></iframe>    </div> <div class="list-group-item">Trans Tv Live 
+
+ <div class="list-group-item">Trans Tv Live 
 
 </div></div>
 
