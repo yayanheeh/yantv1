@@ -12,11 +12,10 @@
   <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
 </head>
 
-<body>
+<body><main>
 <div class="loader">
     <img src="http://freepreloaders.com/wp-content/uploads/2019/05/index.messenger-typing-preloader.svg" alt="Loading..." />
 </div>
-<div class="video-container">
   <video id='my-video' class='video-js' controls preload='auto' width='300' height='250'
   poster='MY_VIDEO_POSTER.jpg' data-setup='{}'>
     <source src='http://202.80.222.178/000001/2/ch15010918464887721048/index.m3u8?virtualDomain=000001.live_hls.zte.com&IASHttpSessionId=OTT11209201907240349063715746p' type='video/mp4'>
@@ -25,7 +24,7 @@
       <a href='https://videojs.com/html5-video-support/' target='_blank'>supports HTML5 video</a>
     </p>
   </video>
-</div>
+</main>
   <script src='https://vjs.zencdn.net/7.6.0/video.js'></script>
 
   
@@ -64,21 +63,42 @@
 </style>
   
 <style>
-.video-container {
-position: relative;
-padding-bottom: 56.25%;
-padding-top: 30px; height: 0; overflow: hidden;
-}
-.video-container iframe,
-.video-container object,
-.video-container embed {
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
+
+ * {
+  box-sizing: border-box;
 }
 
+/* This technique doesn't naturally cause horizontal overflow, but once there is natural vertical overflow, it causes horizontal overflow, so stopping here. */
+body {
+  overflow-x: hidden;
+}
+
+img { 
+  max-width: 100%; 
+}
+
+main {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+p, figure {
+  margin: 15px 0;
+}
+figcaption {
+  text-align: center;
+  color: #999;
+}
 </style>
 
 <script>
