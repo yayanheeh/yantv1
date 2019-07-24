@@ -16,6 +16,7 @@ import Realmadrid from 'src/pages/Realmadrid.vue'
 import Sctv from 'src/pages/Sctv.vue'
 import Trans from 'src/pages/Trans.vue'
 import Tvone from 'src/pages/Tvone.vue'
+import Trans7 from 'src/pages/Trans7.vue'
 
 
 const routes = [
@@ -80,6 +81,12 @@ const routes = [
         name: 'Tvone',
         component: Tvone
       },
+    {
+        path: 'trans7',
+        name: 'Trans7',
+        component: Trans7
+      },
+
       {
         path: 'notifications',
         name: 'Notifications',
