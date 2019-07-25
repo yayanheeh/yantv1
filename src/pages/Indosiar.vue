@@ -1,4 +1,10 @@
 <template>
+<div class="embed-responsive embed-responsive-16by9">
+Conten desktop
+</div></div>
+<div class="d-block d-md-none">
+
+
  <div class="sticky-top">
 
 <div class="embed-responsive embed-responsive-16by9">
@@ -9,7 +15,7 @@
    Indosiar Live </div>
 
 </div>
-
+</div>
   </template>
 
 
