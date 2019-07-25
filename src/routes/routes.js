@@ -21,7 +21,8 @@ import Kompas from 'src/pages/Kompas.vue'
 import Rcti from 'src/pages/Rcti.vue'
 import Metro from 'src/pages/Metro.vue'
 import Net from 'src/pages/Net.vue'
-
+import Antv from 'src/pages/Antv.vue'
+import Mnc from 'src/pages/Mnc.vue'
 
 
 const routes = [
@@ -75,12 +76,22 @@ const routes = [
         name: 'Sctv',
         component: Sctv
       },
+
      {
         path: 'metro',
         name: 'Metro',
         component: Metro
       },
-
+    {
+        path: 'antv',
+        name: 'Antv',
+        component: Antv
+      },
+    {
+        path: 'mnc',
+        name: 'Mnc',
+        component: Mnc
+      },
      {
         path: 'trans',
         name: 'Trans',
