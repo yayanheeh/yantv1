@@ -75,7 +75,7 @@ const routes = [
         name: 'Sctv',
         component: Sctv
       },
-{
+     {
         path: 'metro',
         name: 'Metro',
         component: Metro
