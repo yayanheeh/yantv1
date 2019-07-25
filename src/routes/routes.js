@@ -26,7 +26,6 @@ import Mnc from 'src/pages/Mnc.vue'
 import Indosiar from 'src/pages/Indosiar.vue'
 import Gtv from 'src/pages/Gtv.vue'
 import Euro from 'src/pages/Euro.vue'
-import Gtv from 'src/pages/2/Gtv.vue'
 
 
 const routes = [
@@ -145,11 +144,7 @@ const routes = [
         name: 'Euro',
         component: Euro
       },
-   {
-        path: '2/gtv',
-        name: '2/Gtv',
-        component: 2/Gtv
-      },
+   
       {
         path: 'notifications',
         name: 'Notifications',
