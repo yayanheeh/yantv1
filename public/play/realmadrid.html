@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" >
-
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Real Madrid Tv</title>
-  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-
-  <link rel='stylesheet' href='https://unpkg.com/plyr@3/dist/plyr.css'>
-
-    <style>
+  <meta charset="UTF-8">
+  <title>MediaelementJS Fullscreen Overlay</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.23.0/mediaelementplayer.css'>
+<link rel="stylesheet" href="./style.css">
+<style>
  .loader {
     position: fixed;
     z-index: 99;
@@ -47,30 +43,32 @@
 </style>
   
 
-  
-</head>
 
-<body>
+
+
+
+
+</head>
+<body bgcolor="#000000">
+<!-- partial:index.partial.html -->
+  
 <div class="loader">
     <img src="http://freepreloaders.com/wp-content/uploads/2019/05/index.messenger-typing-preloader.svg" alt="Loading..." />
 </div>
-  
-	<video controls crossorigin playsinline poster="https://cdn0-production-images-kly.akamaized.net/PK8cqDbBEFHztcaU8idxtSBjdY0=/750x416/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/687488/original/2014_02_logo-real-madrid2.jpg">
-		 	<source src="https://rmtv24hweblive-lh.akamaihd.net/i/rmtv24hweben_1@300662/index_3_av-b.m3u8?sd=10&rebase=on" type="video/mp4" size="720">
-			
-			<!-- Caption files -->
-			<track kind="captions" label="English" srclang="en" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt"
-					default>
-			<track kind="captions" label="Français" srclang="fr" src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.fr.vtt">
-			</video>
 
-<!-- Plyr resources and browser polyfills are specified in the pen settings -->
-  <script src='https://cdn.polyfill.io/v2/polyfill.min.js?features=es6,Array.prototype.includes,CustomEvent,Object.entries,Object.values,URL'></script>
-<script src='https://unpkg.com/plyr@3/dist/plyr.min.js'></script>
 
+<div class="video-container">
+  <video class="video-js vjs-default-skin vjs-big-play-centered vjs-16-9" style="width:100%;height:100%;" poster="https://yayanheeh.github.io/live/logo/mnc.jpg" preload="auto" width="412" height="231" data-reactid=".0.0.0" src="https://rmtv24hweblive-lh.akamaihd.net/i/rmtv24hweben_1@300662/index_3_av-b.m3u8?sd=10&rebase=on">
+    <source type="video/mp4" src="https://rmtv24hweblive-lh.akamaihd.net/i/rmtv24hweben_1@300662/index_3_av-b.m3u8?sd=10&rebase=on" data-reactid=".0.0.0.0">
+      </video>
   
 
-    <script  src="./script.js"></script>
+</div>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.23.0/mediaelement-and-player.min.js'></script>
+<script  src="./script.js"></script>
+
 
 <script>
 window.addEventListener("load", function () {
@@ -79,7 +77,5 @@ window.addEventListener("load", function () {
 });
 </script>
 
-
 </body>
-
 </html>
