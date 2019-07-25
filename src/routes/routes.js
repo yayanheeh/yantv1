@@ -18,6 +18,8 @@ import Trans from 'src/pages/Trans.vue'
 import Tvone from 'src/pages/Tvone.vue'
 import Trans7 from 'src/pages/Trans7.vue'
 import Kompas from 'src/pages/Kompas.vue'
+import Rcti from 'src/pages/Rcti.vue'
+
 
 
 const routes = [
@@ -91,6 +93,11 @@ const routes = [
         path: 'kompas',
         name: 'Kompas',
         component: Kompas
+      },
+   {
+        path: 'rcti',
+        name: 'Rcti',
+        component: Rcti
       },
 
       {
