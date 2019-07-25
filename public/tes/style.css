@@ -1,0 +1,29 @@
+.video-container {
+  position: relative;
+}
+
+.overlays {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100px;
+  height: 150px;
+  position: absolute;
+}
+
+.overlay1 {
+  top: 0;
+  left: 0;
+  background: rgba(255, 0, 0, 0.5);
+}
+
+.overlay2 {
+  top: 0;
+  right: 0;
+  background: rgba(0, 255, 0, 0.5);
+}
