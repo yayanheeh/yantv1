@@ -25,6 +25,7 @@ import Antv from 'src/pages/Antv.vue'
 import Mnc from 'src/pages/Mnc.vue'
 import Indosiar from 'src/pages/Indosiar.vue'
 import Gtv from 'src/pages/Gtv.vue'
+import Euro from 'src/pages/Euro.vue'
 
 
 const routes = [
