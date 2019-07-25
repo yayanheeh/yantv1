@@ -2,7 +2,7 @@
  <div class="sticky-top">
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://yantv.netlify.com/tes/index.html" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://yantv.netlify.com/play/sctv.html" allowfullscreen></iframe>
 </div>
 
 <div class="list-group-item"><i class="nc-icon nc-chart-bar-32"></i>
