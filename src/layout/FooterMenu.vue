@@ -1,4 +1,7 @@
 <template>
+<div class="d-block d-md-none">
+
+
 <div class="container">
       <div class="row">
     <div class="col">
@@ -186,7 +189,7 @@ Tv sport
 
     </div>
     
-    
+    </div>
 </template>
 <style>
 .time {
