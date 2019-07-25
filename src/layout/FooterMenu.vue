@@ -123,29 +123,6 @@
           <span class="time">Live</span>
          <center><router-link :to="{path:'/admin/mnc'}"> <img src="https://img.icons8.com/color/48/000000/circled-play.png"width="30"></router-link></center> </div>
         </div>
-        </div>
-
-    </div>
-
-<div class="row">
-    <div class="col">
-    <div class="card">
-         <img src="https://yayanheeh.github.io/live/logo/gtv.jpg" class="img-thumbnail" alt="Responsive image">
-
-        <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
-          <span class="time">Live</span>
-         <center><router-link :to="{path:'/admin/gtv'}"> <img src="https://img.icons8.com/color/48/000000/circled-play.png"width="30"></router-link></center>
-     </div>   
-</div>
-    </div>
-    <div class="col">
-    <div class="card">
-          <img src="https://yantv.netlify.com/play/indosiar.jpg" class="img-thumbnail" alt="Responsive image">
-
-        <div class="card-img-overlay text-white d-flex flex-column justify-content-center">
-          <span class="time">Live</span>
-         <center><router-link :to="{path:'/admin/indosiar'}"> <img src="https://img.icons8.com/color/48/000000/circled-play.png"width="30"></router-link></center> </div>
-        </div>
         
 
     </div>
