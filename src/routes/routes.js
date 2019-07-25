@@ -19,6 +19,7 @@ import Tvone from 'src/pages/Tvone.vue'
 import Trans7 from 'src/pages/Trans7.vue'
 import Kompas from 'src/pages/Kompas.vue'
 import Rcti from 'src/pages/Rcti.vue'
+import Metro from 'src/pages/Metro.vue'
 
 
 
@@ -73,6 +74,12 @@ const routes = [
         name: 'Sctv',
         component: Sctv
       },
+{
+        path: 'metro',
+        name: 'Metro',
+        component: Metro
+      },
+
      {
         path: 'trans',
         name: 'Trans',
