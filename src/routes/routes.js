@@ -20,6 +20,7 @@ import Trans7 from 'src/pages/Trans7.vue'
 import Kompas from 'src/pages/Kompas.vue'
 import Rcti from 'src/pages/Rcti.vue'
 import Metro from 'src/pages/Metro.vue'
+import Net from 'src/pages/Net.vue'
 
 
 
@@ -101,7 +102,13 @@ const routes = [
         name: 'Kompas',
         component: Kompas
       },
-   {
+     {
+        path: 'net',
+        name: 'Net',
+        component: Net
+      },
+
+     {
         path: 'rcti',
         name: 'Rcti',
         component: Rcti
