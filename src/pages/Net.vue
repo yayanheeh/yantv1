@@ -6,7 +6,7 @@
 </div>
 
 <div class="list-group-item"><i class="nc-icon nc-chart-bar-32"></i>
-   Sctv Live </div>
+   Net tv Live </div>
 
 </div>
 
