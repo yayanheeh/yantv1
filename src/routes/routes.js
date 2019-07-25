@@ -23,7 +23,8 @@ import Metro from 'src/pages/Metro.vue'
 import Net from 'src/pages/Net.vue'
 import Antv from 'src/pages/Antv.vue'
 import Mnc from 'src/pages/Mnc.vue'
-import Euro from 'src/pages/Euro.vue'
+import Indosiar from 'src/pages/Indosiar.vue'
+import Gtv from 'src/pages/Gtv.vue'
 
 
 const routes = [
@@ -114,6 +115,17 @@ const routes = [
         name: 'Kompas',
         component: Kompas
       },
+   {
+        path: 'indosiar',
+        name: 'Indosiar',
+        component: Indosiar
+      },
+   {
+        path: 'gtv',
+        name: 'Gtv',
+        component: Gtv
+      },
+
      {
         path: 'net',
         name: 'Net',
