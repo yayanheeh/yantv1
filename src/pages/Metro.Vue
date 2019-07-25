@@ -1,81 +1,44 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>MediaelementJS Fullscreen Overlay</title>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.23.0/mediaelementplayer.css'>
-<link rel="stylesheet" href="./style.css">
-<style>
- .loader {
-    position: fixed;
-    z-index: 99;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+<template>
+ <div class="sticky-top">
 
-.loader > img {
-    width: 100px;
-}
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://yantv.netlify.com/play/metro.html" allowfullscreen></iframe>
+</div>
 
-.loader.hidden {
-    animation: fadeOut 1s;
-    animation-fill-mode: forwards;
-}
+<div class="list-group-item"><i class="nc-icon nc-chart-bar-32"></i>
+   Metro tv Live </div>
 
-@keyframes fadeOut {
-    100% {
-        opacity: 0;
-        visibility: hidden;
+</div>
+
+  </template>
+
+<script>
+  import Yayan from 'src/components/Yayan/Yayan.vue'
+
+  export default {
+    components: {
+      Yayan
     }
-}
+  }
 
-.thumb {
-    height: 100px;
-    border: 1px solid black;
-    margin: 10px;
-}
-</style>
-  
-
-
-
-
-
-
-</head>
-<body bgcolor="#000000">
-<!-- partial:index.partial.html -->
-  
-<div class="loader">
-    <img src="http://freepreloaders.com/wp-content/uploads/2019/05/index.messenger-typing-preloader.svg" alt="Loading..." />
-</div>
-
-
-<div class="video-container">
-  <video class="video-js vjs-default-skin vjs-big-play-centered vjs-16-9" style="width:100%;height:100%;" poster="https://yayanheeh.github.io/live/logo/metro.jpg" preload="auto" width="412" height="231" data-reactid=".0.0.0" src="http://202.80.222.183/000001/2/ch14041511515576869807/index.m3u8?virtualDomain=000001.live_hls.zte.com">
-    <source type="video/mp4" src="http://202.80.222.183/000001/2/ch14041511515576869807/index.m3u8?virtualDomain=000001.live_hls.zte.com" data-reactid=".0.0.0.0">
-      </video>
-  
-
-</div>
-<!-- partial -->
-  <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mediaelement/2.23.0/mediaelement-and-player.min.js'></script>
-<script  src="./script.js"></script>
+</script>
 
 
 <script>
-window.addEventListener("load", function () {
-    const loader = document.querySelector(".loader");
-    loader.className += " hidden"; // class "loader hidden"
-});
+  import Card from 'src/components/Cards/Card.vue'
+
+  export default {
+    components: {
+      Card
+    }
+  }
+
 </script>
 
-</body>
-</html>
+              
+
+
+<style>
+
+</style>
+
