@@ -1,5 +1,11 @@
  
 <template>
+<div class="d-none d-md-block">
+
+<iframe src="https://www.metube.id/embed/183?type=live&autoplay=true&mute=true" width="560" height="315" frameborder="0" allowfullscreen>
+</div>
+<div class="d-block d-md-none">
+
 <div class="sticky-top">
 
 <div class="embed-responsive embed-responsive-16by9">
@@ -7,7 +13,7 @@
 <div class="list-group-item"><i class="nc-icon nc-chart-bar-32"></i>
    Trans7 live </div>
 
-</div>
+</div></div>
 </template>
 <script>
   import Card from 'src/components/Cards/Card.vue'
