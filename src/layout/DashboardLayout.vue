@@ -2,6 +2,10 @@
   <div class="wrapper">
     <side-bar>
       <mobile-menu slot="content"></mobile-menu>
+      </side-bar>
+<div class="d-none d-md-block">
+    <side-bar>
+      <mobile-menu slot="content"></mobile-menu>
       <sidebar-link to="/admin/overview">
         <i class="nc-icon nc-chart-pie-35"></i>
         <p>Dashboard</p>
@@ -39,6 +43,7 @@
         </sidebar-link>
       </template>
     </side-bar>
+  </div>
     <div class="main-panel">
       <top-navbar></top-navbar>
 
