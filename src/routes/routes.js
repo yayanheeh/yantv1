@@ -23,6 +23,7 @@ import Metro from 'src/pages/Metro.vue'
 import Net from 'src/pages/Net.vue'
 import Antv from 'src/pages/Antv.vue'
 import Mnc from 'src/pages/Mnc.vue'
+import Euro from 'src/pages/Euro.vue'
 
 
 const routes = [
@@ -125,6 +126,11 @@ const routes = [
         component: Rcti
       },
 
+     {
+        path: 'euro',
+        name: 'Euro',
+        component: Euro
+      },
       {
         path: 'notifications',
         name: 'Notifications',
