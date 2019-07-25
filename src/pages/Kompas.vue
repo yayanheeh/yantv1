@@ -1,5 +1,11 @@
  
 <template>
+<div class="embed-responsive embed-responsive-16by9">
+Conten desktop
+</div></div>
+<div class="d-block d-md-none">
+
+
 <div class="sticky-top">
 
 <div class="embed-responsive embed-responsive-16by9">
@@ -7,7 +13,7 @@
 </div> <div class="list-group-item"><i class="nc-icon nc-chart-bar-32"></i>
    Kompas tv live </div>
 
-</div>
+</div></div>
 </template>
 <script>
   import Card from 'src/components/Cards/Card.vue'
