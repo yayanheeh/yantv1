@@ -18,7 +18,7 @@
     
     <div class="col">
     
-        <router-link :to="{path:'/admin/Dgtv'}">&ensp;&ensp; <i class="nc-icon nc-button-play"></i> <small>Server 2</small> </router-link></div>
+        <router-link :to="{path:'/admin/Dgtv'}">&ensp;&ensp;&ensp; <small><i class="nc-icon nc-button-play"></i> Server 2</small> </router-link></div>
         </div>
         
 
