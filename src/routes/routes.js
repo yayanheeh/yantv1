@@ -25,6 +25,18 @@ import Antv from 'src/pages/Antv.vue'
 import Mnc from 'src/pages/Mnc.vue'
 import Indosiar from 'src/pages/Indosiar.vue'
 import Gtv from 'src/pages/Gtv.vue'
+import Dsctv from 'src/pages/Dsctv.vue'
+import Dtrans from 'src/pages/Dtrans.vue'
+import Dtvone from 'src/pages/Dtvone.vue'
+import Dtrans7 from 'src/pages/Dtrans7.vue'
+import Dkompas from 'src/pages/Dkompas.vue'
+import Drcti from 'src/pages/Drcti.vue'
+import Dmetro from 'src/pages/Dmetro.vue'
+import Dnet from 'src/pages/Dnet.vue'
+import Dantv from 'src/pages/Dantv.vue'
+import Dmnc from 'src/pages/Dmnc.vue'
+import Dindosiar from 'src/pages/Dindosiar.vue'
+import Dgtv from 'src/pages/Dgtv.vue'
 import Euro from 'src/pages/Euro.vue'
 
 
@@ -144,6 +156,77 @@ const routes = [
         name: 'Euro',
         component: Euro
       },
+
+
+    {
+        path: 'dsctv',
+        name: 'Dsctv',
+        component: Dsctv
+      },
+   {
+        path: 'dtrans',
+        name: 'Dtrans',
+        component: Dtrans
+      },
+
+   {
+        path: 'dtvone',
+        name: 'Dtvone',
+        component: Dtvone
+      },
+
+   {
+        path: 'dtrans7',
+        name: 'Dtrans7',
+        component: Dtrans7
+      },
+
+  {
+        path: 'dkompas',
+        name: 'Dkompas',
+        component: Dkompas
+      },
+
+   {
+        path: 'drcti',
+        name: 'Drcto',
+        component: Drcti
+      },
+
+   {
+        path: 'dmetro',
+        name: 'Dmetro',
+        component: Dmetro
+      },
+{
+        path: 'dnet',
+        name: 'Dnet',
+        component: Dnet
+      },
+
+{
+        path: 'dantv',
+        name: 'Dantv',
+        component: Dabtv
+      },
+{
+        path: 'dmnc',
+        name: 'Dmnc',
+        component: Dmnc
+      },
+
+{
+        path: 'dindosiar',
+        name: 'Dindosiar',
+        component: Dindosiar
+      },
+{
+        path: 'dgtv',
+        name: 'Dgtv',
+        component: Dgtv
+      },
+
+
    
       {
         path: 'notifications',
