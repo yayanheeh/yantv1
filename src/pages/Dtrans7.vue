@@ -10,6 +10,9 @@
   </template>
 
 
+<link rel="alternate" media="only screen and (max-width: 640px)"
+ href="https://yantv.netlify.com/#/admin/kompas"/>
+
 
 <script>
   import Card from 'src/components/Cards/Card.vue'
