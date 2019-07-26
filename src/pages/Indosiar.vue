@@ -1,7 +1,7 @@
 <template>
 
 
-<div class="d-block d-md-none">
+
 
 
  <div class="sticky-top">
@@ -10,10 +10,21 @@
   <iframe class="embed-responsive-item" src="https://yantv.netlify.com/play/indosiar.html" allowfullscreen></iframe>
 </div>
 
-<div class="list-group-item"><i class="nc-icon nc-chart-bar-32"></i>
-   Indosiar Live </div>
+<div class="list-group-item">
+ <div class="row">
+    <div class="col">
+  <i class="nc-icon nc-chart-bar-32"></i>
+   Gtv Live  </div>   
+    
+    <div class="col">
+    
+        <router-link :to="{path:'/admin/Dindosiar'}">&ensp;&ensp;&ensp; <small><i class="nc-icon nc-button-play"></i> Server 2</small> </router-link></div>
+        </div>
+        
 
-</div>
+    </div>
+ </div>
+
 </div>
   </template>
 
