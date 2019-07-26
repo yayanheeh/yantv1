@@ -189,7 +189,7 @@ const routes = [
 
    {
         path: 'drcti',
-        name: 'Drcto',
+        name: 'Drcti',
         component: Drcti
       },
 
