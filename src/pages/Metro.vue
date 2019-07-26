@@ -18,7 +18,7 @@
     
     <div class="col">
     
-        <router-link :to="{path:'/admin/sctv'}"> <i class="nc-icon nc-bell-55"></i> Chanel 2 </router-link></div>
+        <router-link :to="{path:'/admin/sctv'}">&ensp;&ensp; <i class="nc-icon nc-button-play"></i> Chanel 2 </router-link></div>
         </div>
         
 
