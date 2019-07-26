@@ -207,7 +207,7 @@ const routes = [
 {
         path: 'dantv',
         name: 'Dantv',
-        component: Dabtv
+        component: Dantv
       },
 {
         path: 'dmnc',
