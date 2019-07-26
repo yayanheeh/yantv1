@@ -1,6 +1,5 @@
 <template>
 
-<div class="d-block d-md-none">
 
 
  <div class="sticky-top">
@@ -9,18 +8,23 @@
   <iframe class="embed-responsive-item" src="https://yantv.netlify.com/play/mnc.html" allowfullscreen></iframe>
 </div>
 
-<div class="list-group-item"><i class="nc-icon nc-chart-bar-32"></i>
-   Mnc tv Live </div>
+<div class="list-group-item">
+ <div class="row">
+    <div class="col">
+  <i class="nc-icon nc-chart-bar-32"></i>
+   Mnc tv live  </div>   
+    
+    <div class="col">
+    
+        <router-link :to="{path:'/admin/Dmnc'}">&ensp;&ensp;&ensp; <small><i class="nc-icon nc-button-play"></i> Server 2</small> </router-link></div>
+        </div>
+        
+
+    </div>
+ </div>
+
 
 </div>
-</div>
-
-<div class="d-none d-md-block">
-
-
-<div class="embed-responsive embed-responsive-16by9">
-<iframe src="https://www.metube.id/embed/3?type=live&autoplay=true&mute=true" width="560" height="315" frameborder="0" allowfullscreen>
-</div></div>
 
   </template>
 
