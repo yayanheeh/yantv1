@@ -44,12 +44,12 @@ const routes = [
   {
     path: '/',
     component: DashboardLayout,
-    redirect: '/admin/sctv'
+    redirect: '/admin/dtrans'
   },
   {
     path: '/admin',
     component: DashboardLayout,
-    redirect: '/admin/sctv',
+    redirect: '/admin/dtrans',
     children: [
       {
         path: 'overview',
