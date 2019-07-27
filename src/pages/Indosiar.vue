@@ -14,7 +14,7 @@
  <div class="row">
     <div class="col">
   <i class="nc-icon nc-chart-bar-32"></i>
-   Gtv Live  </div>   
+   Indosiar Live  </div>   
     
     <div class="col">
     
