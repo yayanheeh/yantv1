@@ -1,8 +1,7 @@
 <template>
 
 <div class="embed-responsive embed-responsive-16by9">
-<iframe src="https://www.metube.id/embed/183?type=live&autoplay=true&mute=true" width="560" height="315" frameborder="0" allowfullscreen></div>
-
+<iframe frameborder="0" width="480" height="270" src="https://www.dailymotion.com/embed/video/x6p1gw7?autoPlay=1" allowfullscreen="" allow="autoplay"></iframe>
   </template>
 
 <script type="text/javascript">
