@@ -1,24 +1,8 @@
 <template>
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://yantv.netlify.com/play/metro.html" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://yantv.netlify.com/play/sctv.html" allowfullscreen></iframe>
 </div>
-
-<div class="list-group-item">
- <div class="row">
-    <div class="col">
-  <i class="nc-icon nc-chart-bar-32"></i>
-   Metro tv Live  </div>   
-    
-    <div class="col">
-    
-        <router-link :to="{path:'/admin/sctv'}">&ensp;&ensp; <i class="nc-icon nc-button-play"></i> Chanel 2 </router-link></div>
-        </div>
-        
-
-    </div>
- </div>
-
 
 
   </template>
