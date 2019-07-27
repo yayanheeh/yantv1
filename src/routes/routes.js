@@ -38,6 +38,7 @@ import Dmnc from 'src/pages/Dmnc.vue'
 import Dindosiar from 'src/pages/Dindosiar.vue'
 import Dgtv from 'src/pages/Dgtv.vue'
 import Euro from 'src/pages/Euro.vue'
+import Tentangkami from 'src/pages/Tentangkami.vue'
 
 
 const routes = [
@@ -226,7 +227,11 @@ const routes = [
         component: Dgtv
       },
 
-
+{
+        path: 'tentangkami',
+        name: 'Tentangkami',
+        component: Tentangkami
+      },
    
       {
         path: 'notifications',
