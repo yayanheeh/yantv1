@@ -1,8 +1,7 @@
 <template>
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://yantv.netlify.com/play/metro.html" allowfullscreen></iframe>
-</div>
+  <iframe frameborder="0" width="480" height="270" src="https://www.dailymotion.com/embed/video/x6pz4sa?autoPlay=1" allowfullscreen="" allow="autoplay"></iframe></div>
 
 <div class="list-group-item">
  <div class="row">
