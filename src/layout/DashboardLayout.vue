@@ -7,12 +7,12 @@
     <side-bar>
       <mobile-menu slot="content"></mobile-menu>
       <sidebar-link to="/admin/drcti">
-        <i class="nc-icon nc-chart-bar-35"></i>
-        <p>Rcti</p>
+       <i class="nc-icon nc-chart-bar-32"></i>
+         <p>Rcti</p>
       </sidebar-link>
       <sidebar-link to="/admin/dtrans7">
-        <i class="nc-icon nc-circle-09"></i>
-        <p>Trans7</p>
+     <i class="nc-icon nc-chart-bar-32"></i>
+          <p>Trans7</p>
       </sidebar-link>
       <sidebar-link to="/admin/dmetro">
         <i class="nc-icon nc-chart-bar-32"></i>
