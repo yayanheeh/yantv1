@@ -1,18 +1,23 @@
 <template>
+
+
+
   <ul class="nav nav-mobile-menu">
     <li class="nav-item">
-     <router-link :to="{path:'/admin/tentangkami'}">
-    Tentang kami</router-link>
-
+     <a class="nav-link" href="#tentangkami">
+        <span class="no-icon">Tentang kami</span>
+      </a>
 </li>
 
  <li class="nav-item">
-      <router-link :to="{path:'/admin/kritik'}">
-Kritik/saran</router-link>
+   <a class="nav-link" href="#kritik">
+        <span class="no-icon">Kritik/saran</span>
+      </a>
     </li>
  <li class="nav-item">
-      <router-link :to="{path:'/admin'}">
-Versi 1.0.1
+  <a class="nav-link" href="https://instgram.com/kres_008">
+        <span class="no-icon">Kres_008</span>
+      </a>
     </li>
 
   </ul>
