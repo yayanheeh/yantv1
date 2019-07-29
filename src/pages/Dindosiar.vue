@@ -1,7 +1,7 @@
 <template>
 
 <div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="https://yantv.netlify.com/play/metro.html" allowfullscreen></iframe>
+  <iframe class="embed-responsive-item" src="https://yantv.netlify.com/play/indosiar.html" allowfullscreen></iframe>
 </div>
 
 <div class="list-group-item">
