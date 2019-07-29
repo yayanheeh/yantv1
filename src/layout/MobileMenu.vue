@@ -1,20 +1,18 @@
 <template>
   <ul class="nav nav-mobile-menu">
     <li class="nav-item">
-      <a class="nav-link" href="#pablo">
-        <span class="no-icon">Tentang kami</span>
-      </a>
-    </li>
+     <router-link :to="{path:'/admin/tentangkami'}">
+    Tentang kami</router-link>
+
+</li>
 
  <li class="nav-item">
-      <a class="nav-link" href="#pablo">
-        <span class="no-icon">Kritik/saran</span>
-      </a>
+      <router-link :to="{path:'/admin/kritik'}">
+Kritik/saran</router-link>
     </li>
  <li class="nav-item">
-      <a class="nav-link" href="#pablo">
-        <span class="no-icon">Kebijakan privasi</span>
-      </a>
+      <router-link :to="{path:'/admin'}">
+Versi 1.0.1
     </li>
 
   </ul>
