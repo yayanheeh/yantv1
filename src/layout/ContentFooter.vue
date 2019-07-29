@@ -10,10 +10,10 @@
         </ul>
       </nav>
       <div class="copyright text-center">
-        &copy; Coded with
+        &copy; © 2019 -
         <i class="fa fa-heart heart"></i> by
         <a href="https://yayanheeh.online" target="_blank">Yplay Tv</a>.
-        Designed by <a href="https://www.yayanheeh.online" target="_blank">Yayan He'eh</a>.
+        Designed by <a href="https://www.instagram.com/kres-008" target="_blank">Kres 008</a>.
       </div>
     </div>
   </footer>
