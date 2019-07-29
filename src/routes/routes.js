@@ -39,18 +39,19 @@ import Dindosiar from 'src/pages/Dindosiar.vue'
 import Dgtv from 'src/pages/Dgtv.vue'
 import Euro from 'src/pages/Euro.vue'
 import Tentangkami from 'src/pages/Tentangkami.vue'
+import Kritik from 'src/pages/Kritik.vue'
 
 
 const routes = [
   {
     path: '/',
     component: DashboardLayout,
-    redirect: '/admin/dtrans'
+    redirect: '/admin/kompas'
   },
   {
     path: '/admin',
     component: DashboardLayout,
-    redirect: '/admin/dtrans',
+    redirect: '/admin/kompas',
     children: [
       {
         path: 'overview',
@@ -231,6 +232,12 @@ const routes = [
         path: 'tentangkami',
         name: 'Tentangkami',
         component: Tentangkami
+      },
+
+{
+        path: 'kritik',
+        name: 'Kritik',
+        component: Kritik
       },
    
       {
