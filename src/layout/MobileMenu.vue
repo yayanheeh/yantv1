@@ -16,7 +16,7 @@
     </li>
  <li class="nav-item">
   <a class="nav-link" href="https://instagram.com/kres_008">
-        <span class="no-icon nc-camera-20">IG: Kres_008</span>
+        <span class="no-icon">IG: Kres_008</span>
       </a>
     </li>
 
